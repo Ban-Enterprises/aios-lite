@@ -1,0 +1,32 @@
+{
+  "name": "aios-lite",
+  "version": "1.1.0",
+  "description": "AIOS Lite - AI Operating System for solo businesses",
+  "author": "Ban Enterprises",
+  "repo": "https://github.com/Ban-Enterprises/aios-lite",
+  "updated": "2026-04-15",
+  "changelog": "Added /obsidian module, /aios-update command",
+  "framework_files": [
+    "CLAUDE.md",
+    ".gitignore",
+    ".claude/commands/prime.md",
+    ".claude/commands/status.md",
+    ".claude/commands/brainstorm.md",
+    ".claude/commands/plan.md",
+    ".claude/commands/research.md",
+    ".claude/commands/commit.md",
+    ".claude/commands/end-session.md",
+    ".claude/commands/install-aios.md",
+    ".claude/commands/obsidian.md",
+    ".claude/commands/aios-update.md"
+  ],
+  "protected_paths": [
+    ".context/",
+    "outputs/",
+    "plans/",
+    "docs/",
+    "dziennik/",
+    ".obsidian/",
+    "scripts/"
+  ]
+}
